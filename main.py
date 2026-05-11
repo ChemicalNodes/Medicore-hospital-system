@@ -115,7 +115,7 @@ class HospitalApp(tk.Tk):
             pages[page_id]()
 
     def _load_dashboard(self):
-        from ui_dashboard import DashboardScreen
+        from dashboard import DashboardScreen
         screen = DashboardScreen(self.content_area, self.colors)
         screen.pack(fill="both", expand=True)
 
